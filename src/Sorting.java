@@ -23,7 +23,7 @@ It occurs when the elements of the array are in jumbled order (neither ascending
                     arr[i]=arr[min];
                     arr[min]=temp;
                 }
-            for (int j : arr) {
+            for (int i=0;i<arr.lenth;i++) {
                 System.out.println(j);
             }
             }
